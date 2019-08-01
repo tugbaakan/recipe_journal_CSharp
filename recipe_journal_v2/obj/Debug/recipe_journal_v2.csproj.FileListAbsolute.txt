@@ -1,0 +1,9 @@
+C:\Users\tugbaa\Documents\Visual Studio 2012\ProjectsCSharp\recipe_journal_v2\recipe_journal_v2\bin\Debug\recipe_journal_v2.exe.config
+C:\Users\tugbaa\Documents\Visual Studio 2012\ProjectsCSharp\recipe_journal_v2\recipe_journal_v2\bin\Debug\recipe_journal_v2.exe
+C:\Users\tugbaa\Documents\Visual Studio 2012\ProjectsCSharp\recipe_journal_v2\recipe_journal_v2\bin\Debug\recipe_journal_v2.pdb
+C:\Users\tugbaa\Documents\Visual Studio 2012\ProjectsCSharp\recipe_journal_v2\recipe_journal_v2\obj\Debug\recipe_journal_v2.csprojResolveAssemblyReference.cache
+C:\Users\tugbaa\Documents\Visual Studio 2012\ProjectsCSharp\recipe_journal_v2\recipe_journal_v2\obj\Debug\recipe_journal_v2.Form1.resources
+C:\Users\tugbaa\Documents\Visual Studio 2012\ProjectsCSharp\recipe_journal_v2\recipe_journal_v2\obj\Debug\recipe_journal_v2.Properties.Resources.resources
+C:\Users\tugbaa\Documents\Visual Studio 2012\ProjectsCSharp\recipe_journal_v2\recipe_journal_v2\obj\Debug\recipe_journal_v2.csproj.GenerateResource.Cache
+C:\Users\tugbaa\Documents\Visual Studio 2012\ProjectsCSharp\recipe_journal_v2\recipe_journal_v2\obj\Debug\recipe_journal_v2.exe
+C:\Users\tugbaa\Documents\Visual Studio 2012\ProjectsCSharp\recipe_journal_v2\recipe_journal_v2\obj\Debug\recipe_journal_v2.pdb
