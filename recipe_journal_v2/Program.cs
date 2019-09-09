@@ -50,9 +50,9 @@ namespace recipe_journal_v2
 
             // Import txt files and create a list of the objects of the Recipe class.
             List<Recipe> recipes = new List<Recipe>();
-            int i = 0;
+            //int i = 0;
             // We assume that there are at most 20 recipes.
-            for (i = 1; i <= 20; i++)
+            for (int i = 1; i <= 20; i++)
             {
                 try
                 {
@@ -60,8 +60,8 @@ namespace recipe_journal_v2
                     of the array is one line of the file. */
                     string[] new_recipe = System.IO.File.ReadAllLines(@"C:\Users\tugbaa\Documents\GitHub\recipe_journal_golang\recipe" + i + ".txt");
                     int ing_index = 0;
-                    int j = 0;
-                    for (j = 0; j < new_recipe.Length; j++)
+                    //int j = 0;
+                    for (int j = 0; j < new_recipe.Length; j++)
                     {
                         // take the below line of 'Ingredients' for ingredient list
                         // find the index and assign it to ing_index
@@ -87,15 +87,15 @@ namespace recipe_journal_v2
             List<Recipe> list_other_2 = new List<Recipe>();
             
             foreach( var rec in recipes){
-                foreach ( var cate in rec.category){
-                    if (cate.name == "Beef"){
+                foreach ( var cate in rec.Category){
+                    if (cate.Name == "Beef"){
                         list_meat_2.Add(rec);
                     }
-                    else if (cate.name == "Chicken")
+                    else if (cate.Name == "Chicken")
                     {
                         list_chicken_2.Add(rec);
                     }
-                    else if (cate.name == "Vegetables")
+                    else if (cate.Name == "Vegetables")
                     {
                         list_veggies_2.Add(rec);
                     }

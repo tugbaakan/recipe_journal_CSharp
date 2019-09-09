@@ -35,7 +35,7 @@ namespace recipe_journal_v2
             
             foreach (var item in inputList)
             { 
-                listBox1.Items.Add(item.name );
+                listBox1.Items.Add(item.Name );
             }
 
         }

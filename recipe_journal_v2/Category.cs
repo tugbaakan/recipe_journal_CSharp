@@ -9,10 +9,10 @@ namespace recipe_journal_v2
     // create a class for Categories
     public class Category
     {
-        public int ID;
-        public string name;
-        public string[] ignorewords;
-        public string[] keywords;
+        private int ID;
+        private string name;
+        private string[] ignorewords;
+        private string[] keywords;
 
         public Category(int ID_inp, string name_inp, string[] keywords_inp
             , string[] ignorewords_inp)
@@ -23,5 +23,8 @@ namespace recipe_journal_v2
             ignorewords = ignorewords_inp;
         }
 
+        public string[] Ignorewords { get { return this.ignorewords; } set { this.ignorewords = value; } }
+        public string[] Keywords { get { return this.keywords; } set { this.keywords = value; } }
+        public string Name { get { return this.name; } set { this.name = value; } }
     }
 }
